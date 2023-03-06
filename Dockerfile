@@ -1,4 +1,4 @@
-FROM node:lts-aplpine3.16
+FROM node:lts-alpine3.16
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
